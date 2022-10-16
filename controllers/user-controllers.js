@@ -18,7 +18,7 @@ const userController = {
           res.status(500).json(err);
         });
     },
-  // get single user by id
+  // GET single user by id
 //   getUserById(req, res) {
 //     User.findOne({ _id: req.params.userId })
 //       .select("-__v")

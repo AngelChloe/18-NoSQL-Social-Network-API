@@ -19,6 +19,7 @@ API GET routes in Insomnia Core for users and thoughts show data and is displaye
 Clone the repository, navigate to the project folder on your CLI and run the following command to install Node.js:
 
 ```npm install```
+
 ## Usage 
 Run the following command on your CLI to run the application:
 
