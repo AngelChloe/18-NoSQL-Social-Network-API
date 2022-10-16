@@ -1,5 +1,4 @@
-// REACTION'S SUBDOCUMENT SCHEMA IN THOUGHT MODEL
-
+// Reaction's Subdocument SCHEMA in thought MODEL
 const { Schema, Types } = require("mongoose");
 const dateFormat = require("../utils/dateFormat");
 

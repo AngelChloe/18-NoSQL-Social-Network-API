@@ -1,5 +1,7 @@
 ## 18 NoSQL Challenge: Social Network API
 ​
+
+
 ## Description 
 ​This application is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 ​
@@ -25,20 +27,7 @@ Run the following command on your CLI to run the application:
 
 ```npm start```
 
-Video demonstration: 
 
-## Screen Shots:
-
-
-
-​
-
-## Packages
-
-* Express.js https://www.npmjs.com/package/express
-* Mongoose ODM https://www.npmjs.com/package/mongoose to connect to MongoDB database
-
-## Credits
 ​
 Created by Univertiy of Utah Coding Bootcamp Student, Cindy Chynoweth with the help of other AMAZING developer's out there
 ​
