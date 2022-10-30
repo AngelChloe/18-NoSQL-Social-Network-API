@@ -13,18 +13,13 @@ app.use(express.static('public'));
 // MongoDB finds and connects to DB if exists or creates if it doesn't
 mongoose.connect(process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/social-network-api", {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    
+    useUnifiedTopology: true
 });
 
 // log mongo queries being executed
 mongoose.set("debug", true);
 
 app.use(require('./routes'));
-
-// mongoose.connection.once("open",()=>{
-//     app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
-// })
+mongoose.connection.once("open",()=>{
 app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
-
+})

@@ -43,7 +43,7 @@ Run the following command on your CLI to run the application:
 ## Packages
 
 * Express.js https://www.npmjs.com/package/express
-* Mongoose ODM https://www.npmjs.com/package/mongoose to connect to MongoDB database
+* Mongoose https://www.npmjs.com/package/mongoose to connect to MongoDB database
 
 ## Questions
 For additional questions and information, please visit my [GitHub profile](github.com/Cinderbeast/)
