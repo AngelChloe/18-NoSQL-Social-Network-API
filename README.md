@@ -8,6 +8,10 @@ This backend can be used for social media startups, and uses a NOSQL database, E
 
 API GET routes in Insomnia Core for users and thoughts show data and is displayed in a formatted JSON. API POST, PUT, and DELETE routes in Insomnia Core successfully create, update, and delete users and thoughts in the database. API POST and DELETE routes in Insomnia Core successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list.
 
+## User Story
+As A social media startup, I WANT an API for my social network that uses a NoSQL database.  So that my website can handle large amounts of unstructured data.
+
+
 ## Table of Contents
 ​
 1. [Acceptance criteria](#acceptance-criteria)
@@ -21,6 +25,15 @@ API GET routes in Insomnia Core for users and thoughts show data and is displaye
 
 ## Acceptance criteria
 
+- GIVEN a social network API
+- WHEN I enter the command to invoke the application
+- THEN my server is started and the Mongoose models are synced to the MongoDB database
+- WHEN I open API GET routes in Insomnia for users and thoughts
+- THEN the data for each of these routes is displayed in a formatted JSON
+- WHEN I test API POST, PUT, and DELETE routes in Insomnia
+- THEN I am able to successfully create, update, and delete users and thoughts in my database
+- WHEN I test API POST and DELETE routes in Insomnia
+- THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 ## Installation
 ​
