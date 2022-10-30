@@ -13,13 +13,12 @@ As A social media startup, I WANT an API for my social network that uses a NoSQL
 
 
 ## Table of Contents
-​
-1. [Acceptance criteria](#acceptance-criteria)
+​1. [Acceptance criteria](#acceptance-criteria)
 2. [Installation](#installation)
-3. [Screenshots](#screenshots)
-4. [Walkthrough Video's](#walkthrough-video's)
-5. [Resources](#resources)
-6. [Usage](#usage)
+3. [Usage](#usage)
+4. [Screenshots](#screenshots)
+5. [Walkthrough Video's](#walkthrough-video's)
+6. [Packages](#packages)
 7. [Questions](#questions)
 8. [Authors and Acknowledgements](#authors-and-acknowledgements)
 
@@ -39,14 +38,21 @@ As A social media startup, I WANT an API for my social network that uses a NoSQL
 ​
 Clone the repository, navigate to the project folder on your CLI and run the following command to install Node.js:
 
-```npm install```
+- npm install
 
 ## Usage 
 Run the following command on your CLI to run the application:
 
-```npm start```
-```Make sure you are contected to Mongodb```
+- npm start
+- Make sure you are connected to Mongodb
 
+## Screenshots
+
+All Useres
+![AllUsers](https://user-images.githubusercontent.com/105569378/198905864-51341cf6-454a-4489-9a55-c1bc7fd1bd24.png)
+
+Friends
+![Friends](https://user-images.githubusercontent.com/105569378/198905873-9ecb947c-8e3c-46af-a94c-c9fd7a347bdc.png)
 
 ## Walkthrough Video
 
