@@ -13,11 +13,12 @@ As A social media startup, I WANT an API for my social network that uses a NoSQL
 
 
 ## Table of Contents
+
 ​1. [Acceptance criteria](#acceptance-criteria)
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Screenshots](#screenshots)
-5. [Walkthrough Video's](#walkthrough-video's)
+5. [Walkthrough Video](#walkthrough-video)
 6. [Packages](#packages)
 7. [Questions](#questions)
 8. [Authors and Acknowledgements](#authors-and-acknowledgements)
