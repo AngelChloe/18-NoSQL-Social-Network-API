@@ -1,7 +1,6 @@
 ## 18 NoSQL Challenge: Social Network API
 ​
 
-
 ## Description 
 ​This application is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
 ​
@@ -11,10 +10,17 @@ API GET routes in Insomnia Core for users and thoughts show data and is displaye
 
 ## Table of Contents
 ​
-* [Installation](#installation)
-* [Usage](#usage)
-* [Packages](#packages)
-* [Credits](#credits)​
+1. [Acceptance criteria](#acceptance-criteria)
+2. [Installation](#installation)
+3. [Screenshots](#screenshots)
+4. [Walkthrough Video's](#walkthrough-video's)
+5. [Resources](#resources)
+6. [Usage](#usage)
+7. [Questions](#questions)
+8. [Authors and Acknowledgements](#authors-and-acknowledgements)
+
+## Acceptance criteria
+
 
 ## Installation
 ​
@@ -26,8 +32,24 @@ Clone the repository, navigate to the project folder on your CLI and run the fol
 Run the following command on your CLI to run the application:
 
 ```npm start```
+```Make sure you are contected to Mongodb```
 
 
-​
+## Walkthrough Video
+
+- [Social Network API video link]()
+
+
+## Packages
+
+* Express.js https://www.npmjs.com/package/express
+* Mongoose ODM https://www.npmjs.com/package/mongoose to connect to MongoDB database
+
+## Questions
+For additional questions and information, please visit my [GitHub profile](github.com/Cinderbeast/)
+or reach out via email at cindychynoweth@gmail.com o cindychynowreth@hotmail.com
+
+## Authors and Acknowledgements
+
 Created by Univertiy of Utah Coding Bootcamp Student, Cindy Chynoweth with the help of other AMAZING developer's out there
 ​
