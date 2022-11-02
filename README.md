@@ -14,7 +14,7 @@ As A social media startup, I WANT an API for my social network that uses a NoSQL
 
 ## Table of Contents
 
-​1. [Acceptance criteria](#acceptance-criteria)
+​1. [Acceptance Criteria](#acceptance-criteria)
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Screenshots](#screenshots)
@@ -23,7 +23,7 @@ As A social media startup, I WANT an API for my social network that uses a NoSQL
 7. [Questions](#questions)
 8. [Authors and Acknowledgements](#authors-and-acknowledgements)
 
-## Acceptance criteria
+## Acceptance Criteria
 
 - GIVEN a social network API
 - WHEN I enter the command to invoke the application
@@ -67,7 +67,7 @@ Friends
 
 ## Questions
 For additional questions and information, please visit my [GitHub profile](github.com/Cinderbeast/)
-or reach out via email at cindychynoweth@gmail.com o cindychynowreth@hotmail.com
+or reach out via email at cindychynoweth@gmail.com or cindychynoweth@hotmail.com
 
 ## Authors and Acknowledgements
 
