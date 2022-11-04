@@ -50,10 +50,22 @@ Run the following command on your CLI to run the application:
 ## Screenshots
 
 All Useres
-![AllUsers](https://user-images.githubusercontent.com/105569378/198905864-51341cf6-454a-4489-9a55-c1bc7fd1bd24.png)
+![AllUsers](https://user-images.githubusercontent.com/105569378/199856643-39b10d70-45ca-4310-9cb4-d89f8c75ef18.png)
 
-Friends
-![Friends](https://user-images.githubusercontent.com/105569378/198905873-9ecb947c-8e3c-46af-a94c-c9fd7a347bdc.png)
+Create New User
+![CreateNewUser](https://user-images.githubusercontent.com/105569378/199856663-e9aa5f96-02b9-44a5-ab8c-99a44b3a5455.png)
+
+All Friends
+![Friends](https://user-images.githubusercontent.com/105569378/199856669-e841b79b-cb30-4765-a2e2-fe86e3cb1e5c.png)
+
+Add A Friend
+![AddAFriend](https://user-images.githubusercontent.com/105569378/199856676-1501dc61-8199-4d44-918f-615ff06fba65.png)
+
+Create A Thought
+![CreateThought](https://user-images.githubusercontent.com/105569378/199857459-48e9f699-aa4c-4465-8e79-c2d74a577ad9.png)
+
+Create Reaction to a Thought
+![CreateReactionToThought](https://user-images.githubusercontent.com/105569378/199856682-21580e92-63b2-422b-b993-a0a89d88ae12.png)
 
 ## Walkthrough Video
 
@@ -71,5 +83,5 @@ or reach out via email at cindychynoweth@gmail.com or cindychynoweth@hotmail.com
 
 ## Authors and Acknowledgements
 
-Created by Univertiy of Utah Coding Bootcamp Student, Cindy Chynoweth with the help of other AMAZING developer's out there
+Created by University of Utah Coding Bootcamp Student, Cindy Chynoweth with the help of other AMAZING developer's out there
 ​
