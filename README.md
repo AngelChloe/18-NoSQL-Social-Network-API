@@ -59,7 +59,7 @@ All Friends
 ![Friends](https://user-images.githubusercontent.com/105569378/199856669-e841b79b-cb30-4765-a2e2-fe86e3cb1e5c.png)
 
 Add A Friend
-![AddAFriend](https://user-images.githubusercontent.com/105569378/199856676-1501dc61-8199-4d44-918f-615ff06fba65.png)
+![AddAFriend](https://user-images.githubusercontent.com/105569378/199859803-9b1c6bb2-97af-4d49-b848-97df9a0af431.png)
 
 Create A Thought
 ![CreateThought](https://user-images.githubusercontent.com/105569378/199857459-48e9f699-aa4c-4465-8e79-c2d74a577ad9.png)
