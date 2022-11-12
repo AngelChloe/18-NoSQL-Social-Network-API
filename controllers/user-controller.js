@@ -16,6 +16,7 @@ const userController = {
         res.sendStatus(400);
       });
   },
+
   // get user by user id
   getUserById({ params }, res) {
     User.findOne({ _id: params.id })
@@ -41,6 +42,7 @@ const userController = {
         res.sendStatus(400);
       });
   },
+
  // create user
   createUser({ body }, res) {
     User.create(body)
@@ -63,6 +65,7 @@ const userController = {
     })
     .catch((err) => res.json(err));
   },
+  
   // delete user by user ID
   deleteUser({ params }, res) {
     User.findOneAndDelete({ _id: params.id })
@@ -79,8 +82,9 @@ const userController = {
       })
       .catch((err) => res.json(err));
   },
-   // add friend
-   addFriend({ params }, res) {
+  
+  // add friend
+  addFriend({ params }, res) {
     User.findOneAndUpdate(
       { _id: params.userId },
       { $addToSet: { friends: params.friendId } },
@@ -95,7 +99,8 @@ const userController = {
       })
       .catch((err) => res.json(err));
   },
-   // delete friend by friend ID
+  
+  // delete friend by friend ID
    removeFriend({ params }, res) {
     User.findOneAndUpdate(
       { _id: params.userId },
@@ -110,8 +115,6 @@ const userController = {
       })
       .catch((err) => res.json(err));
   },
-};
-
 };
 
 module.exports = userController;
