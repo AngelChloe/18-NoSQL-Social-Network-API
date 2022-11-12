@@ -1,5 +1,5 @@
 const router = require('express').Router();
-// import all API routes from /api/index.js
+const index = require("./index")
 const userRoutes = require("./user-routes");
 const thoughtRoutes = require("./thought-routes");
 
