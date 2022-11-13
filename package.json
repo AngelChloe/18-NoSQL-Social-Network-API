@@ -1,8 +1,18 @@
 {
-  "name": "18-nosql",
+  "name": "18-nosql-social-network-api",
   "version": "1.0.0",
-  "description": "​\r ## Description \r ​This application is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.\r ​\r This backend can be used for social media startups, and uses a NOSQL database, Express.js for routing, MongoDB database, and Mongoose ODM to handle large amounts of unstructured data, including User and Thought models and schemas and Reaction subdocument schema. When the application is invoked, the server is started and Mongoose models are synced to the MongoDB database.",
+  "description": "​",
   "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.1",
+    "bowser": "^2.11.0",
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2"
+    
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,19 +21,10 @@
     "type": "git",
     "url": "git+https://github.com/Cinderbeast/18-NoSQL.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Cindy Chynoweth",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Cinderbeast/18-NoSQL/issues"
   },
-  "homepage": "https://github.com/Cinderbeast/18-NoSQL#readme",
-  "dependencies": {
-    "express": "^4.18.2",
-    "modules": "^0.4.0",
-    "mongoose": "^6.7.2",
-    "node": "^18.12.0",
-    "nosql": "^6.1.0",
-    "package": "^1.0.1"
-  }
+  "homepage": "https://github.com/Cinderbeast/18-NoSQL#readme"
 }
