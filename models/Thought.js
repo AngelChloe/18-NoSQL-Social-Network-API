@@ -1,78 +1,43 @@
 const { Schema, model, Types } = require("mongoose");
+const reactionSchema = require('./Reaction');
 const dateFormat = require("../utils/dateFormat");
 
 const ReactionSchema = new Schema(
   {
-    reactionId: {
-      // Mongoose's ObjectId data type
-      type: Schema.Types.ObjectId,
-      // Default value is set to a new ObjectId
-      default: () => new Types.ObjectId(),
-    },
-
-    reactionBody: {
-      type: String,
-      required: true,
-      maxlength: 280,
-    },
-
-    username: {
-      type: String,
-      required: true,
-    },
-
-    createdAt: {
-      type: Date,
-      // Set default value to the current timestamp
-      default: Date.now,
-      // Use a getter method to format the timestamp on query
-      get: (timestamp) => dateFormat(timestamp),
-    },
-  },
-  {
-    toJSON: {
-      getters: true,
-    },
-    id: false,
-  }
-);
-const ThoughtSchema = new Schema(
-  {
     thoughtText: {
+      // Mongoose's ObjectthoughtText: {
       type: String,
-      required: "Thought is Required",
+      required: 'Please leave a thought!',
       minlength: 1,
-      maxlength: 280,
+      maxlength: 280
     },
 
+    // create time/date
     createdAt: {
       type: Date,
       default: Date.now,
-      // Use a getter method to format the timestamp on query
-      get: (timestamp) => dateFormat(timestamp),
+      get: timestamp => dateFormat(timestamp)
     },
-
+    
+    // picks up user
     username: {
       type: String,
-      required: true,
+      required: true
     },
-
-    // array of nested documents created with the reactionSchema
-    reactions: [ReactionSchema],
+    // picks up reaction
+    reactions: [reactionSchema]
   },
   {
     toJSON: {
-      virtuals: true,
-      getters: true,
-    },
-    id: false,
+      getters: true
+    }
   }
 );
 
-ThoughtSchema.virtual("reactionCount").get(function () {
+schemaThought.virtual('reactionCount').get(function() {
   return this.reactions.length;
 });
 
-const Thought = model("Thought", ThoughtSchema);
+const Thought = model('Thought', schemaThought);
 
 module.exports = Thought;
