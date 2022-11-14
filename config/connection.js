@@ -1,14 +1,13 @@
-const mongoose = require("mongoose");
+const { connect, connection } = require('mongoose');
 
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/18-NoSQL-Social-Network-API",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+const connectionString =
+  process.env.MONGODB_URI ||
+  'mongodb://127.0.0.1:27017/18-NoSGL-Social-Network-API';
 
-// Use this to log mongo queries being executed!
-mongoose.set("debug", true);
+connect(connectionString, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
 
-module.exports = mongoose.connection;
+module.exports = connection;
+

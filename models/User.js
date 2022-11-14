@@ -1,41 +1,33 @@
 const { Schema, model } = require('mongoose');
-const bcrypt = require('bcrypt');
+const Thought = require('./Thought.js');
 
-const UserSchema = new Schema(
+const userSchema = new Schema(
   {
-    // looking for correct username requirements
-    username: {
+    username:{
       type: String,
       required: true,
-      unique: true,
-      trim: true
+      unique:true,
+      max_length: 50
     },
-
-    // looking for correct email requirements
-    email: {
+    email:{
       type: String,
       required: true,
-      unique: true,
-      match: [/.+@.+\..+/, 'must match an email address!']
+      max_length: 50,
+      unique:true,
+      validate: {
+        validator(value){
+          // Valid email regex pulled from https://stackoverflow.com/questions/46155/how-can-i-validate-an-email-address-in-javascript/1373724#1373724
+          return /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/.test(value);
+        }
+      }
     },
-
-    // looking for password requirements
-    password: {
-      type: String,
-      required: true,
-      minlength: 5
-    },
-
-    // looking for thought requirements
-    thoughts: [
+    thoughts:[
       {
         type: Schema.Types.ObjectId,
         ref: 'Thought'
       }
     ],
-
-     // looking for friend requirements
-    friends: [
+    friends:[
       {
         type: Schema.Types.ObjectId,
         ref: 'User'
@@ -43,36 +35,19 @@ const UserSchema = new Schema(
     ]
   },
   {
-    toJSON: {
-      virtuals: true,
-      getters: true
+    toJSON:{
+      virtuals: true
     },
     id: false
   }
 );
 
-schemaUser.virtual('friendCount').get(function() {
+userSchema
+  .virtual('friendCount')
+  .get(function(){
     return this.friends.length;
   });
 
-schemaUser.pre('save', async function(next) {
-  if (this.isNew || this.isModified('password')) {
-    const saltRounds = 10;
-    this.password = await bcrypt.hash(this.password, saltRounds);
-  }
-
-  next();
-});
-
-schemaUser.methods.isCorrectPassword = async function(password) {
-  return bcrypt.compare(password, this.password);
-};
-
-schemaUser.virtual('friendCount').get(function() {
-  return this.friends.length;
-});
-
-// ./model/user
-const User = model('User', schemaUser);
+const User = model('User',userSchema);
 
 module.exports = User;
