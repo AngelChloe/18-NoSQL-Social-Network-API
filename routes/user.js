@@ -2,7 +2,7 @@
 const router = require('express').Router();
 
 const { User, Thought } = require('../models');
-const friendRoutes = require('./subRoutes/friend');
+const friendRoutes = require('./secondaryRoutes/friend');
 const removeFriends = require('./utils/removeFriends');
 
 router.use('/:userID/friends',(req,res,next) => {

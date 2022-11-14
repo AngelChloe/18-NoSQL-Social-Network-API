@@ -2,7 +2,7 @@
 const router = require('express').Router();
 
 const { User, Thought } = require('../models');
-const reactionRoutes = require('./subRoutes/reaction');
+const reactionRoutes = require('./secondaryRoutes/reaction');
 
 router.use('/:thoughtID/reactions',(req,res,next) => {
   req.reactionParams = req.params;

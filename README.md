@@ -50,22 +50,22 @@ Run the following command on your CLI to run the application:
 ## Screenshots
 
 All Useres
-![AllUsers](https://user-images.githubusercontent.com/105569378/199856643-39b10d70-45ca-4310-9cb4-d89f8c75ef18.png)
+![AllUsers](https://user-images.githubusercontent.com/105569378/201570475-0c4a2a6c-466d-46a8-b7c5-838728a11888.png)
 
 Create New User
-![CreateNewUser](https://user-images.githubusercontent.com/105569378/199856663-e9aa5f96-02b9-44a5-ab8c-99a44b3a5455.png)
+![CreateNewUser](https://user-images.githubusercontent.com/105569378/201570492-9640801a-a5bd-482d-bbd8-c44e81f90299.png)
 
-All Friends
-![Friends](https://user-images.githubusercontent.com/105569378/199856669-e841b79b-cb30-4765-a2e2-fe86e3cb1e5c.png)
+Friends
+![Friends](https://user-images.githubusercontent.com/105569378/201570509-7a05c445-60bd-464a-8ce7-4c5c07be6613.png)
 
 Add A Friend
-![AddAFriend](https://user-images.githubusercontent.com/105569378/199859803-9b1c6bb2-97af-4d49-b848-97df9a0af431.png)
+![AddAFriend](https://user-images.githubusercontent.com/105569378/201570520-40003e00-a324-4ed6-aae5-5bd942dc83cf.png)
 
-Create A Thought
-![CreateThought](https://user-images.githubusercontent.com/105569378/199857459-48e9f699-aa4c-4465-8e79-c2d74a577ad9.png)
+Create a thought
+![CreateThought](https://user-images.githubusercontent.com/105569378/201571044-26562301-02e1-478c-90b9-72b34f4676a1.png)
 
-Create Reaction to a Thought
-![CreateReactionToThought](https://user-images.githubusercontent.com/105569378/199856682-21580e92-63b2-422b-b993-a0a89d88ae12.png)
+Create A Reacition To A Thought
+![CreateReactionToThought](https://user-images.githubusercontent.com/105569378/201570566-b6b50247-b60f-4ae6-ae1a-03abe4a2d7fe.png)
 
 ## Walkthrough Video
 
