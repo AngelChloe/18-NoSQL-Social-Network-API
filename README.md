@@ -69,7 +69,7 @@ Create A Reacition To A Thought
 
 ## Walkthrough Video
 
-- [Social Network API video link]()
+- [Social Network API video link](https://drive.google.com/file/d/1Q8OqbIeWMOBuvs5QYhloxdHhmuRO0F_z/view)
 
 
 ## Packages
@@ -83,5 +83,5 @@ or reach out via email at cindychynoweth@gmail.com or cindychynoweth@hotmail.com
 
 ## Authors and Acknowledgements
 
-Created by University of Utah Coding Bootcamp Student, Cindy Chynoweth with the help of other AMAZING developer's out there
+Created by University of Utah Coding Bootcamp Student, Cindy Chynoweth with the help of other AMAZING developer's out there.  Special Thanks To Steve Cosgrove!
 ​
