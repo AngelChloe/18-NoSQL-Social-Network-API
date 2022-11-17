@@ -62,10 +62,11 @@ Add A Friend
 ![AddAFriend](https://user-images.githubusercontent.com/105569378/201570520-40003e00-a324-4ed6-aae5-5bd942dc83cf.png)
 
 Create a thought
-![CreateThought](https://user-images.githubusercontent.com/105569378/201571044-26562301-02e1-478c-90b9-72b34f4676a1.png)
+![CreateAThought](https://user-images.githubusercontent.com/105569378/202322370-92e65cc0-3611-4574-b745-69a2fc642647.png)
 
 Create A Reacition To A Thought
-![CreateReactionToThought](https://user-images.githubusercontent.com/105569378/201570566-b6b50247-b60f-4ae6-ae1a-03abe4a2d7fe.png)
+![CreateReactionToThought](https://user-images.githubusercontent.com/105569378/202322384-836a4735-92e1-4a47-9fc1-bffcf56f2b5f.png)
+
 
 ## Walkthrough Video
 
