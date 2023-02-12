@@ -40,7 +40,7 @@ As A social media startup, I WANT an API for my social network that uses a NoSQL
 Clone the repository, navigate to the project folder on your CLI and run the following command to install Node.js:
 
 - npm install
-Np
+
 ## Usage 
 Run the following command on your CLI to run the application:
 
@@ -64,7 +64,7 @@ Add A Friend
 Create a thought
 ![CreateAThought](https://user-images.githubusercontent.com/105569378/202322370-92e65cc0-3611-4574-b745-69a2fc642647.png)
 
-Create A Reacition To A Thought
+Create A Reaction To A Thought
 ![CreateReactionToThought](https://user-images.githubusercontent.com/105569378/202322384-836a4735-92e1-4a47-9fc1-bffcf56f2b5f.png)
 
 
